@@ -38,18 +38,18 @@ Need some inspiration? Here are some ideas:
 - A detailed recipe viewer with all the cooking info you need
 - A meal planner to organize your week
 - A nutrition tracker to keep an eye on what you eat
-- A random recipe generator for the adventurous chef
-- A shopping list maker to prep for your next grocery run
+- A random recipe generator to inspire you
+- A shopping list maker to help you get your groceries
 
 ## Technical Stuff 🛠️
 
 - Feel free to use either the App Router (`/app`) or Pages Router (`/pages`) - we've set up examples for both
 - Style it however you want (CSS, Tailwind, whatever works for you!)
-- TypeScript? Sure, if you want! But no pressure if you prefer JavaScript
+- Install any additional libraries you'd like to use - it's your call!
 
 ## Submission 🎯
 
 1. Create a new branch with your name (e.g. `cookbook/petar-petrovic`)
 2. Commit your changes
 
-That's it! We can't wait to see what you create!
+That's it! We can't wait to see what you create! Good luck!
