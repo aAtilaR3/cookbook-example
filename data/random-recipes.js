@@ -1,4 +1,4 @@
-export const recipesData = [
+export const recipes = [
   {
     vegetarian: false,
     vegan: false,

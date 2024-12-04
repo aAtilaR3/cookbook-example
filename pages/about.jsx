@@ -1,6 +1,24 @@
 import styles from "./about.module.css";
 
 export default function About() {
+  // REQUIRED TASKS:
+  // [ ] Implement form submission to /api/contact endpoint
+  // [ ] Add basic form validation (all fields required)
+  // [ ] Handle loading state during the 2s API delay
+  // [ ] Display success/error messages from API response
+  // [ ] Clear form after successful submission
+
+  // BONUS TASKS:
+  // [ ] Show status of form submission in a toast notification
+  // [ ] Implement form state management (React Hook Form/Formik)
+  // [ ] Add real-time validation with error messages
+  // [ ] Add email format validation
+  // [ ] Add character limit to message (e.g. 500 chars)
+  // [ ] Implement retry on API failure
+  // [ ] Save form draft to localStorage
+  // [ ] Add keyboard navigation (proper focus management)
+  // [ ] Make the page SEO friendly
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>About Our Recipe Community</h1>
@@ -55,6 +73,59 @@ export default function About() {
             our passion for good food and great company.
           </p>
         </div>
+      </div>
+
+      <div className={styles.contactSection}>
+        <h2>Get in Touch</h2>
+        <form className={styles.contactForm}>
+          <div className={styles.formGroup}>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your name"
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="your@email.com"
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="recipe">Recipe Suggestion</option>
+              <option value="bug">Report an Issue</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Your message here..."
+              rows="5"
+            />
+          </div>
+
+          <button type="submit" className={styles.submitButton}>
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
   );

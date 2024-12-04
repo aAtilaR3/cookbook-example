@@ -7,7 +7,7 @@ export default function Home() {
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/random">Random receipes</a>
+          <a href="/random-recipes">Random receipes</a>
         </li>
       </ul>
     </main>

@@ -1,6 +1,6 @@
 # 4Z Cookbook 👩‍🍳
 
-Hey there! Welcome to our frontend technical exercise. We'd love to see you build a recipe app using the Spoonacular API. Don't worry - there's no strict requirements here, just 2 hours to show us how you like to build user interfaces!
+Hey there! Welcome to our frontend technical exercise. We'd love to see you build a recipe app using the Spoonacular API. We've set up a few fun challenges for you to tackle in the next 2 hours!
 
 ## Getting Started 🚀
 
@@ -14,42 +14,104 @@ SPOONACULAR_API_KEY=api_key_here
 
 4. Start the dev server with `npm run dev`
 
+## What Will You Build? 🤔
+
+We've prepared three pages for you to work on:
+
+### 1. Random Recipes Page 🎲
+
+Located at `/random-recipes`, this page is like a culinary slot machine! Tired of the eternal "What should I cook?" question? This page will be your trusty kitchen companion, serving up delicious surprises at the click of a button. Here's what you need to do to make this foodie fortune-teller come to life:
+
+**Required Tasks:**
+
+- Replace mock data with real Spoonacular API integration
+- Add a "Get New Recipes" button
+- Implement basic error handling
+- Add loading states
+- Style recipe cards
+- Make the layout responsive
+
+**Bonus Tasks:**
+
+- Implement adding recipes to favorites
+- Add loading skeletons
+- Implement proper error states with retry options
+- Make the page SEO friendly
+- Add infinite scroll or pagination
+
+### 2. About Page with Contact Form 📝
+
+Found at `/about`, this page needs a working contact form:
+
+**Required Tasks:**
+
+- Implement form submission to the API endpoint
+- Add basic form validation
+- Handle loading states during submission
+- Display success/error messages
+- Clear form after successful submission
+- Make the form pretty
+
+**Bonus Tasks:**
+
+- Add real-time validation
+- Implement form state management
+- Add email format validation
+- Add character limit to message
+- Implement retry on API failure
+- Save form draft to localStorage
+
+### 3. Recipe Details Page 🍳
+
+Create a new route for displaying detailed recipe information. This page must be server-side rendered for optimal performance and SEO:
+
+**Required Tasks:**
+
+- Create a dynamic route for recipe details (/recipes/[id])
+- Use server-side rendering (SSR) for initial page load
+- Fetch and display comprehensive recipe data:
+  - Title and images
+  - Cooking time and servings
+  - Ingredients list with amounts
+  - Step by step instructions
+- Add loading and error states
+- Make it mobile responsive
+- Implement proper metadata for SEO
+
+**Bonus Tasks:**
+
+- Add nutritional information
+- Implement ingredient unit conversion
+- Add a "Similar Recipes" section
+- Add a "Jump to Recipe" button for long pages
+- Implement ISR (Incremental Static Regeneration) for better performance
+
+## Technical Details 🛠️
+
+- Choose either the App Router (`/app`) or Pages Router (`/pages`) for your implementation
+  - We've provided examples for both, but you should pick one and stick with it
+  - Move all pages to your chosen router
+  - Remove the unused router directory completely
+  - ⚠️ The app won't build until you pick one router and delete the other
+  - 💡 Tip: Don't forget about the API route as well (/api/contact) you can only have one of these
+- Style it however you want (CSS, Tailwind, whatever works for you!)
+- Install any additional libraries you'd like to use
+
 ## API Docs 🥄
 
 ```
 https://spoonacular.com/food-api/docs
 ```
 
-Endpoint examples:
+Example endpoints:
 
 ```js
-https://api.spoonacular.com/recipes/716429/information?includeNutrition=false&apiKey=${process.env.SPOONACULAR_API_KEY}
-
 https://api.spoonacular.com/recipes/random?number=4&apiKey=${process.env.SPOONACULAR_API_KEY}
 ```
-
-## What Should You Build? 🤔
-
-Anything you want! This is your chance to have fun and show off your skills. Build something that gets you excited.
-
-Need some inspiration? Here are some ideas:
-
-- A recipe search that helps people find their next favorite meal
-- A detailed recipe viewer with all the cooking info you need
-- A meal planner to organize your week
-- A nutrition tracker to keep an eye on what you eat
-- A random recipe generator to inspire you
-- A shopping list maker to help you get your groceries
-
-## Technical Stuff 🛠️
-
-- Feel free to use either the App Router (`/app`) or Pages Router (`/pages`) - we've set up examples for both
-- Style it however you want (CSS, Tailwind, whatever works for you!)
-- Install any additional libraries you'd like to use - it's your call!
 
 ## Submission 🎯
 
 1. Create a new branch with your name (e.g. `cookbook/petar-petrovic`)
 2. Commit your changes
 
-That's it! We can't wait to see what you create! Good luck!
+That's it! Pick the tasks you want to tackle first and show us your best work. Good luck! 🚀
