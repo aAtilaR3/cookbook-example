@@ -26,7 +26,7 @@ do:
 
 **Required Tasks:**
 
-- Replace mock data with real Spoonacular API integration
+- Replace mock data with real Spoonacular API integration (show at least 10 recipes)
 - Add a "Get New Recipes" button
 - Implement basic error handling
 - Add loading states
@@ -35,7 +35,7 @@ do:
 
 **Bonus Tasks:**
 
-- Implement adding recipes to favorites
+- Implement adding recipes to favorites (for example, by clicking on a heart icon and saving it to local storage)
 - Add loading skeletons
 - Implement proper error states with retry options
 - Make the page SEO friendly
