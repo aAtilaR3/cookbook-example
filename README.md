@@ -20,7 +20,9 @@ We've prepared three pages for you to work on:
 
 ### 1. Random Recipes Page 🎲
 
-Located at `/random-recipes`, this page is like a culinary slot machine! Tired of the eternal "What should I cook?" question? This page will be your trusty kitchen companion, serving up delicious surprises at the click of a button. Here's what you need to do to make this foodie fortune-teller come to life:
+Located at `/random-recipes`, this page
+needs some love! Here's what you need to
+do:
 
 **Required Tasks:**
 
