@@ -24,7 +24,7 @@ Located at `/random-recipes`, this page
 needs some love! Here's what you need to
 do:
 
-**Required Tasks:**
+**Standard Tasks:**
 
 - Replace mock data with real Spoonacular API integration (show at least 10 recipes)
 - Add a "Get New Recipes" button
@@ -33,7 +33,7 @@ do:
 - Style recipe cards
 - Make the layout responsive
 
-**Bonus Tasks:**
+**Advanced Tasks:**
 
 - Implement adding recipes to favorites (for example, by clicking on a heart icon and saving it to local storage)
 - Add loading skeletons
@@ -45,7 +45,7 @@ do:
 
 Found at `/about`, this page needs a working contact form:
 
-**Required Tasks:**
+**Standard Tasks:**
 
 - Implement form submission to the API endpoint
 - Add basic form validation
@@ -54,7 +54,7 @@ Found at `/about`, this page needs a working contact form:
 - Clear form after successful submission
 - Make the form pretty
 
-**Bonus Tasks:**
+**Advanced Tasks:**
 
 - Add real-time validation
 - Implement form state management
@@ -67,7 +67,7 @@ Found at `/about`, this page needs a working contact form:
 
 Create a new route for displaying detailed recipe information. This page must be server-side rendered for optimal performance and SEO:
 
-**Required Tasks:**
+**Standard Tasks:**
 
 - Create a dynamic route for recipe details (/recipes/[id])
 - Use server-side rendering (SSR) for initial page load
@@ -80,7 +80,7 @@ Create a new route for displaying detailed recipe information. This page must be
 - Make it mobile responsive
 - Implement proper metadata for SEO
 
-**Bonus Tasks:**
+**Advanced Tasks:**
 
 - Add nutritional information
 - Implement ingredient unit conversion

@@ -4,7 +4,7 @@ import styles from "./random.module.css";
 import { recipes } from "@/data/random-recipes";
 
 export default function RandomRecipePage() {
-  // REQUIRED TASKS:
+  // STANDARD TASKS:
   // [ ] Replace mock data with real Spoonacular API integration (show 10 recipes)
   // [ ] Add a "Get New Recipes" button
   // [ ] Implement basic error handling
@@ -13,7 +13,7 @@ export default function RandomRecipePage() {
   // [ ] Make the layout responsive
   // [ ] Show recipe image, cooking time, servings, and title
 
-  // BONUS TASKS:
+  // ADVANCED TASKS:
   // [ ] Implement adding recipes to favorites
   // [ ] Add loading skeletons
   // [ ] Implement proper error states with retry options

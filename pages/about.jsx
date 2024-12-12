@@ -1,14 +1,14 @@
 import styles from "./about.module.css";
 
 export default function About() {
-  // REQUIRED TASKS:
+  // STANDARD TASKS:
   // [ ] Implement form submission to /api/contact endpoint
   // [ ] Add basic form validation (all fields required)
   // [ ] Handle loading state during the 2s API delay
   // [ ] Display success/error messages from API response
   // [ ] Clear form after successful submission
 
-  // BONUS TASKS:
+  // ADVANCED TASKS:
   // [ ] Show status of form submission in a toast notification
   // [ ] Implement form state management (React Hook Form/Formik)
   // [ ] Add real-time validation with error messages
