@@ -12,6 +12,7 @@ export default function RandomRecipePage() {
   // [ ] Style recipe cards
   // [ ] Make the layout responsive
   // [ ] Show recipe image, cooking time, servings, and title
+  // [ ] Implement recipe filtering based on search input
 
   // ADVANCED TASKS:
   // [ ] Implement adding recipes to favorites
@@ -19,6 +20,7 @@ export default function RandomRecipePage() {
   // [ ] Implement proper error states with retry options
   // [ ] Add infinite scroll or pagination
   // [ ] Make the page SEO friendly
+  // [ ] Add advanced filtering (cuisine type, diet, etc.)
 
   return (
     <main className={styles.container}>
@@ -32,6 +34,14 @@ export default function RandomRecipePage() {
           the button and let the kitchen magic happen! Warning: May cause
           unexpected cooking adventures and happy taste buds.
         </p>
+      </div>
+
+      <div className={styles.controls}>
+        <div className={styles.searchWrapper}>
+          <input type="text" className={styles.searchInput} />
+          <button className={styles.searchButton}>Find Recipes</button>
+        </div>
+        <button className={styles.randomButton}>Surprise Me!</button>
       </div>
 
       <div className={styles.grid}>

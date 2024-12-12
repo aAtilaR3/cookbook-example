@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: "Times New Roman", Times, serif !important;
 }
+
+button,
+input {
+  border: 1px solid black;
+}
