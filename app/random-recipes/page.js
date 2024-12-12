@@ -6,7 +6,7 @@ import { recipes } from "@/data/random-recipes";
 export default function RandomRecipePage() {
   // STANDARD TASKS:
   // [ ] Replace mock data with real Spoonacular API integration (show 10 recipes)
-  // [ ] Add a "Get New Recipes" button
+  // [ ] Make the "Surprise Me!" button fetch new recipes
   // [ ] Implement basic error handling
   // [ ] Add loading states
   // [ ] Style recipe cards
