@@ -1,6 +1,6 @@
 # 4Z Cookbook 👩‍🍳
 
-Hey there! Welcome to our frontend technical exercise. We'd love to see you build a recipe app using the Spoonacular API. We've set up a few fun challenges for you to tackle in the next 2 hours!
+Hi there! Welcome to our frontend technical exercise. We'd love to see you build a recipe app using the Spoonacular API. We've set up a few fun challenges for you to tackle in the next 2 hours!
 
 ## Getting Started 🚀
 
