@@ -4,15 +4,18 @@ Hey there! Welcome to our frontend technical exercise. We'd love to see you buil
 
 ## Getting Started 🚀
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Add the provided Spoonacular API key to `.env.local`:
+1. Fork this repository
+2. Clone your forked repository
+3. Create a new branch with your name (e.g. `cookbook/petar-petrovic`)
+4. Run `npm install` to install dependencies
+5. Add the provided Spoonacular API key to `.env.local`:
 
 ```bash
 SPOONACULAR_API_KEY=api_key_here
 ```
 
-4. Start the dev server with `npm run dev`
+6. Start the dev server with `npm run dev`
+7. Commit your changes
 
 ## What Will You Build? 🤔
 
@@ -113,7 +116,8 @@ https://api.spoonacular.com/recipes/random?number=4&apiKey=${process.env.SPOONAC
 
 ## Submission 🎯
 
-1. Create a new branch with your name (e.g. `cookbook/petar-petrovic`)
-2. Commit your changes
+1. Push your changes to your forked repository
+2. Create a Pull Request from your fork back to the original repository
+   - Use your name as the PR title (e.g. "Petar Petrovic - 4Zida")
 
 That's it! Pick the tasks you want to tackle first and show us your best work. Good luck! 🚀
